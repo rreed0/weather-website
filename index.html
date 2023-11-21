@@ -102,6 +102,9 @@
             else if (data.weather[0].main == "Snow") {
                 weatherIcon.src = "images/snow.png";
             }
+            else if (data.weather[0].main == "Fog") {
+                weatherIcon.src = "images/fog.png";
+            }
 
             document.querySelector(".weather").style.display = "block";
             document.querySelector(".error").style.display = "none";
@@ -110,7 +113,6 @@
 
     searchBttn.addEventListener("click", ()=>{
         checkWeather(searchBox.value);
-        weatherWrapper.style.display = "block";
     })
 
     </script>
