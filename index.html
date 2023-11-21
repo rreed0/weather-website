@@ -82,7 +82,6 @@
             document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
             document.querySelector(".wind").innerHTML = data.wind.speed + " mi/h";
 
-            weatherIcon.classList.add('fadeIn');
 
             if (data.weather[0].main == "Clouds") {
                 weatherIcon.src = "images/clouds.png";
