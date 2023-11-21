@@ -27,12 +27,11 @@ body {
     width: 900px;
     max-width: 500px;
     background: linear-gradient(120deg, var(--oak-brown), var(--off-white));
-    margin: 120px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
-    padding: 50px 35px;
+    padding: 40px 35px;
     text-align: center;
     border: 3px solid #111;
-    transition: 0.6s ease-out;
 }
 .search{
     width: 100%;
@@ -120,7 +119,7 @@ footer {
     max-width: 500px;
     background: linear-gradient(120deg, var(--oak-brown), var(--off-white));
     color: var(--off-white);
-    margin: 40px auto 0;
+    margin: 40px auto;
     padding: 7px 20px;
     border: 2px solid #111;
     border-radius: 20px;
@@ -129,4 +128,11 @@ footer {
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
     opacity: 1;
     transform: translateY(-50px);
+}
+.heading h1{
+    color: var(--off-white);
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px;
+    padding: 0px 35px;
 }
